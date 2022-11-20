@@ -1,0 +1,42 @@
+{
+  "name": "npm",
+  "version": "1.0.0",
+  "description": "'My new app'",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kfigaj87/node-npm.git"
+  },
+  "keywords": [
+    "app",
+    "hello",
+    "world"
+  ],
+  "author": "Karol Figaj",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kfigaj87/node-npm/issues"
+  },
+  "homepage": "https://github.com/kfigaj87/node-npm#readme",
+  "engines": {
+    "node": ">= 6.0.0",
+    "npm": ">= 3.0.0",
+    "yarn": "^0.13.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.28.0"
+  }
+}
